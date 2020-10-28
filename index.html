@@ -35,7 +35,6 @@
               <button
                 id="myBtn"
                 class="button button__iOS"
-                onclick="location.href='itms-services://?action=download-manifest&amp;url=https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/mfp6.plist'"
               >
                 Установить для iOS
               </button>
@@ -63,8 +62,6 @@
               <button
                 id="myBtnAndroid"
                 class="button button__android"
-                onclick="location.href='https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/app-kurs.apk'"
-              >
                 Установить для Android
               </button>
 
@@ -183,13 +180,15 @@
       // Get the <span> element that closes the modal
       var spanAndroid = document.getElementsByClassName("closeAndroid")[0];
       
-      // When the user clicks the button, open the modal 
+      // iOS btn click
       btn.onclick = function() {
         modal.style.display = "block";
+        location.href='https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/mfp6.plist'
       }
-      // When the user clicks the button, open the modal 
+      // Android btn click
       btnAndroid.onclick = function() {
         modalAndroid.style.display = "block";
+        location.href='https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/app-kurs.apk'
       }
       
       // When the user clicks on <span> (x), close the modal
