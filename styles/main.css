@@ -91,15 +91,30 @@ body {
   margin-left: -4px;
 }
 
+.title__colorCorrection {
+  color: #4F4F4F;
+}
+
 .title__text-sub {
-  color: #4f4f4f;
+  color: #4F4F4F;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 145.18%;
 }
 
+.title__text-sub-correction {
+  color: #A8A8A8;
+  font-weight: 400;
+  line-height: 120%;
+}
+
 .text__sub-width {
   max-width: 500px;
+}
+
+.instruction_link {
+  color: #0491CA;
+  font-weight: 700;
 }
 
 .qr__margin {
@@ -110,8 +125,9 @@ body {
 
 .qr__code-text {
   font-weight: 300;
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1.18rem;
+  line-height: 1.7rem;
+  align-self: center;
 }
 
 .phone__picture {
@@ -127,8 +143,9 @@ body {
 }
 
 .qr__section {
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
+  text-align: left;
 }
 
 /* Pictures */
@@ -142,11 +159,14 @@ body {
 
 .qr__picture {
   max-width: 150px;
-  max-height: auto;
+  max-height: 150px;
   margin-top: 8px;
+  margin-left: -11px;
   bottom: 0px;
   right: 0px;
+  left: 0px;
   background: none;
+
 }
 
 /* 
