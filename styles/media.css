@@ -12,7 +12,7 @@
   }
 
   /* .advantages__inner {
-    
+
   } */
 
   .advantages__list {
@@ -59,7 +59,7 @@
   .advantages__list {
     margin-left: 650px;
     padding-right: 50px;
-    
+
   }
 
   .advantages__inner {
@@ -118,7 +118,7 @@
   .advantages__list {
     margin-left: 500px;
     padding-right: 50px;
-    
+
   }
 
   .advantages__inner {
@@ -159,12 +159,12 @@
     .adv__top__title {
       padding-top: 50px;
     }
-  
+
     .advantages__list {
       margin-left: 400px;
       padding-right: 50px;
     }
-  
+
     .advantages__inner {
       background-size: 600px auto;
       background-position: -60% 0%;
@@ -192,7 +192,7 @@
 /*}*/
 
 @media only screen and (max-width: 784px) {
-    
+
   /* 2nd section */
 
   .advantages {
@@ -202,14 +202,14 @@
     .adv__top__title {
       padding-top: 50px;
     }
-  
+
     .advantages__list {
       max-width: 700px;
       margin-left: 50px;
       padding: 15px 50px;
       margin-bottom: 20px;
     }
-  
+
     .advantages__inner {
       background-image: none;
       background-size: 500px auto;
@@ -237,7 +237,7 @@
       max-height: 250px;
       background-position: 183% 50%;
       /*background-size: 500px auto;*/
-    } 
+    }
 
 }
 
@@ -354,7 +354,7 @@
   .kurs__picture {
     max-width: 90px;
   }
-  
+
   .title__text-main {
     font-size: 1.2rem;
     padding-bottom: 0px;

@@ -21,8 +21,8 @@
             <img class="kurs__picture" src="img/kurs_label.svg" alt="kurs" />
           </div>
           <div class="title__text">
-            <div class="title__text-main origin">Мобильный КУРС</div>
-            <div class="title__text-sub text__sub-width">
+            <div class="title__text-main origin title__colorCorrection">Мобильный КУРС</div>
+            <div class="title__text-sub text__sub-width title__text-sub-correction">
               Основные сервисы по работе с SAP для сотрудников Сбера
             </div>
           </div>
@@ -78,18 +78,14 @@
                   <p>Нажмите на устройстве на кнопку "назад"</p>
                 </div>
               </div>
-
-              
-
             </div>
 
             <div class="qu__code-image">
-              <img class="qr__picture" src="img/qr_ios.svg" alt="" />
+              <img class="qr__picture" src="img/hub.svg" alt="hub_logo"/>
             </div>
             <div id="visable" class="qr__code-text qr__margin">
-              Вы можете установить приложение, открыв ссылку
-              <strong>kurs.sberbank.ru</strong> со смартфона или отсканировав
-              QR-код
+              КУРС открывается через <strong>Intelligent Hub</strong>, который можно загрузить в Google Play (Android) / AppStore (iOS)
+              <a href="#instructions"><strong><span class="instruction_link">Инструкция по установке</span></strong></a>
             </div>
           </div>
         </div>
@@ -126,7 +122,7 @@
             Согласования ВХД <span class="green__slash">/</span> Продажи и KPI
             <span class="green__slash">/</span> Командировки (управление,
             бронирование, отчетность)
-            <span class="green__slash">/</span> Инвентаризация (с 2021 года)
+            <span class="green__slash">/</span> Инвентаризация
           </div>
 
           <div class="title__text-sub adv ai__services">Чат-бот</div>
@@ -138,7 +134,7 @@
       </div>
     </section>
 
-    <footer class="footer ai__logo">
+    <footer class="footer ai__logo" id="instructions">
       <div class="container">
         <div class="footer__position">
           <div class="title__text-main">Инструкции</div>
@@ -176,38 +172,38 @@
       var btnAndroid = document.getElementById("myBtnAndroid");
       
       // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
+      // var span = document.getElementsByClassName("close")[0];
       // Get the <span> element that closes the modal
-      var spanAndroid = document.getElementsByClassName("closeAndroid")[0];
+      // var spanAndroid = document.getElementsByClassName("closeAndroid")[0];
       
       // iOS btn click
       btn.onclick = function() {
-        modal.style.display = "block";
-        location.href='itms-services://?action=download-manifest&amp;url=https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/mfp6.plist'
+        // modal.style.display = "block";
+        location.href='https://apps.apple.com/ru/app/intelligent-hub/id338761996'
       }
       // Android btn click
       btnAndroid.onclick = function() {
-        modalAndroid.style.display = "block";
-        location.href='https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/app-kurs.apk'
+        // modalAndroid.style.display = "block";
+        location.href='https://play.google.com/store/apps/details?id=com.airwatch.androidagent'
       }
       
       // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-        modal.style.display = "none";
-      }
-      // When the user clicks on <span> (x), close the modal
-      spanAndroid.onclick = function() {
-        modalAndroid.style.display = "none";
-      }
+      // span.onclick = function() {
+      //   modal.style.display = "none";
+      // }
+      // // When the user clicks on <span> (x), close the modal
+      // spanAndroid.onclick = function() {
+      //   modalAndroid.style.display = "none";
+      // }
       
       // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        } else if (event.target == modalAndroid) {
-          modalAndroid.style.display = "none";  
-        }
-      }
+      // window.onclick = function(event) {
+      //   if (event.target == modal) {
+      //     modal.style.display = "none";
+      //   } else if (event.target == modalAndroid) {
+      //     modalAndroid.style.display = "none";
+      //   }
+      // }
 
       </script>
 
